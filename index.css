@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 385px;
+    width: 575px;
+    color: white;
+}
+
+.scoreboard1 {
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    position: absolute;
+    left: 82px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+
+}
+
+.scoreboard2 {
+    display: flex;
+    color: white;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    position: absolute;
+    left: 337px;
+    top: 125px;
+}
+
+.home-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 30px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.guest-title {
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 30px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+/*buttons*/
+
+.home-btns {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+.guest-btns {
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+}
+
+.reset-btn { 
+    position: absolute;
+    width: 155px;
+    height: 45px;
+    left: 200px;
+    top: 330px;
+    color: white;
+    background-color: #1B244A;
+    border: 1px solid white;
+}
+
+.btn {
+    width: 48px;
+    height: 45px;
+    color: white;
+    background-color: #1B244A;
+    border-radius: 5px;
+    border: 1px solid white;
+    
+}
